@@ -155,7 +155,7 @@ nav .gg-menu {
 
 
 
-/* ------ courses ------- */
+/* ------ Facilities ------- */
 .course{
     width: 80%;
     margin: auto;
@@ -227,6 +227,7 @@ h3{
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    margin: 5px;
 }
 
 .campus-col img{
