@@ -14,8 +14,8 @@
 }
 
 .header img{
-    width: 5rem;
-    margin: 0;
+    width: 10rem;
+    margin-top: 23px;
     padding: 0;
 }
 
@@ -147,6 +147,7 @@ nav .gg-menu {
     nav .gg-menu{
         display: block;
         color: #fff;
+        left: 500px;
         margin: 10px;
         font-size: 22px;
         cursor: pointer ;
@@ -420,6 +421,14 @@ h3{
 
 .sub-header h1{
     margin-top: 60px;
+    font-size: 60px;
+    margin-top: 60px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0 0 1rem gainsboro;
 }
 
 
@@ -479,6 +488,7 @@ h3{
 .blog-left p{
     color:darkslategray ;
     padding: 0;
+    font-size: large;
 }
 
 .blog-right{
@@ -500,6 +510,7 @@ h3{
     color: #555;
     padding: 8px;
     box-sizing: border-box;
+    border-bottom: solid #999999 0.1px;
 }
 
 .commentbox{
@@ -530,16 +541,17 @@ h3{
     display: inline-block;
     text-decoration: none;
     color:rgb(20, 17, 12);
-    border: 1px solid rgb(209, 126, 126);
+    border: 1px solid red;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
     position: relative;
+    border-radius: 5px;
 }
 
 .Button:hover{
-    border: 1px solid #e90ed7;
-    background:pink;
+    border: 1px solid red;
+    background:rgb(211, 88, 88);
     transition: 1s;
 }
 
@@ -547,6 +559,7 @@ h3{
     .sub-header h1{
         font-size: 24px;
     }
+
 }
 
 /* <!-- ------------  contact Us  ------------ --> */
