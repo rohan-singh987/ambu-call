@@ -162,8 +162,12 @@ nav .gg-menu {
     }
 }
 
-
-
+.counter{
+    text-shadow: 0 0 0.7rem;
+}
+.users{
+    font-size: 40px;
+}
 
 /* ------ Facilities ------- */
 .course{

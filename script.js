@@ -8,3 +8,16 @@ function showMenu(){
 function hideMenu(){
     navLinks.style.right = "-200px";
 }
+
+
+var counter = document.querySelector(".counter");
+
+let count = 1;
+
+setInterval(() => {
+    if(count < 100000){
+        count++;
+    counter.innerHTML = count
+    }
+}, 1000)
+
