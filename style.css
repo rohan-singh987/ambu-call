@@ -196,6 +196,7 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    text-align: justify;
 }
 
 .course-col{
