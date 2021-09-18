@@ -21,3 +21,8 @@ setInterval(() => {
     }
 }, 1000)
 
+
+fetch("AIzaSyAJ16M03Q0vdQZq9LxOSmfErmai-MgcOKk")
+    .then(res => res.json)
+    .then(data => console.log(data))
+
