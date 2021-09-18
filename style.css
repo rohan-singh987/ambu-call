@@ -76,6 +76,8 @@ nav img{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    font-size: x-large;
+    font-weight: bold;
 }
 .text-box h1{
     font-size: 62px;
@@ -421,6 +423,7 @@ h3{
 }
 
 .sub-header h1{
+    margin-top: 60px;
     font-size: 60px;
     margin-top: 60px;
     height: 320px;
