@@ -54,6 +54,7 @@ nav img{
     font-size: 19px ;
     
 }
+
 .nav-links ul li ::after{
     content: '';
     width: 0%;
@@ -64,6 +65,7 @@ nav img{
     transition: 0.5s;
     
 }
+
 .nav-links ul li:hover ::after{
     width: 100%;
 }
@@ -79,6 +81,7 @@ nav img{
     font-size: x-large;
     font-weight: bold;
 }
+
 .text-box h1{
     font-size: 62px;
 }
@@ -88,7 +91,6 @@ nav img{
     font-size: 14px;
     color: #fff;
 }
-
 
 .hero-btn{
     display: inline-block;
@@ -101,13 +103,11 @@ nav img{
     position: relative;
 }
 
-
 .hero-btn:hover{
     border: 1px solid #1e64e7;
     background: #107186c5;
     transition: 1s;
 }
-
 
 nav .gg-close {
     display: none;
@@ -206,6 +206,7 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    text-align: justify;
 
 }
 
@@ -246,6 +247,7 @@ h3{
 
 .campus-col img{
     width: 100%;
+    height: 100%;
     display: block;
 }
 
@@ -286,6 +288,16 @@ h3{
 
 /* ----- Facilities ------- */
 
+#facilities{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.13),rgba(4, 9, 30, 0.164)),url(images/facility_page.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff3f3;
+}
+
 .facilities{
     width: 80%;
     margin: auto;
@@ -303,6 +315,7 @@ h3{
 .facilities-col img{
     width: 100%;
     border-radius: 10px;
+    height: 70%;
 }
 
 .facilities-col p{
@@ -366,15 +379,14 @@ h3{
 
 /* ------------ Call To Action ------------ */
 
-.cta{
-    margin: 100px auto;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/banner2.jpg);
+#contact{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.13),rgba(4, 9, 30, 0.164)),url(images/contact_page.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
     text-align: center;
-    padding: 100px 0;
+    color: #fff3f3;
 }
 
 .cta h1{
@@ -414,9 +426,9 @@ h3{
 
 
 
-/* ---------------------- About Us page  ------------------------- */
+/* ---------------------- Blog page  ------------------------- */
 
-.sub-header{
+#blog{
     height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.13),rgba(4, 9, 30, 0.164)),url(images/blog_post.jpg);
