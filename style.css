@@ -626,6 +626,7 @@ h3{
 
 /* FAQs styling */
 #dropdownMenuButton1 {
+    display: flex;
     background-color: white;
     color: black;
     border: none;
