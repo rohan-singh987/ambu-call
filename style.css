@@ -54,6 +54,7 @@ nav img{
     font-size: 19px ;
     
 }
+
 .nav-links ul li ::after{
     content: '';
     width: 0%;
@@ -64,6 +65,7 @@ nav img{
     transition: 0.5s;
     
 }
+
 .nav-links ul li:hover ::after{
     width: 100%;
 }
@@ -79,6 +81,7 @@ nav img{
     font-size: x-large;
     font-weight: bold;
 }
+
 .text-box h1{
     font-size: 62px;
 }
@@ -88,7 +91,6 @@ nav img{
     font-size: 14px;
     color: #fff;
 }
-
 
 .hero-btn{
     display: inline-block;
@@ -101,13 +103,11 @@ nav img{
     position: relative;
 }
 
-
 .hero-btn:hover{
     border: 1px solid #1e64e7;
     background: #107186c5;
     transition: 1s;
 }
-
 
 nav .gg-close {
     display: none;
