@@ -1,18 +1,88 @@
+
+
+
+.header img{
+    width: 10rem;
+    margin-top: 23px;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(56, 51, 51, 0.644);
+    position:fixed;
+    top: 0;
+    z-index: 100;
+}
+
+nav img{
+    width: 150px;
+    margin-top: 23px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align:center ;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px ;
+    
+}
+
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+
+.nav-links ul li:hover ::after{
+    width: 100%;
+}
+
+
 .volunteer{
-    background: #5b91b4b6;
+    /* background: #1870a36e; */
     font-family: sans-serif;
 }
 
 .volunt{
     position: relative;
     width: 450px;
-    margin: 100px auto 0;
+    margin: 30px auto 0;
     padding: 10px;
     box-sizing: border-box;
     background: rgba(0,0,0,.1);
     box-shadow: inset 0 0 15px rgba(0,0,0,.2);
     overflow: hidden;
     border-radius: 5px;
+}
+
+.hospital{
+    display: flex;
+}
+
+iframe{
+    margin: 30px;
+    width: 60%;
 }
 
 .vol{
@@ -57,12 +127,13 @@
 }
 
 .title-head{
-    font-family: 'Alegreya Sans SC', sans-serif;
-    background: url("https://media.discordapp.net/attachments/797151895038197781/888873885771108412/bill-oxford-8u_2imJaVQs-unsplash.jpg?width=375&height=563");
-    background-repeat: no-repeat;
-    padding-top: 10%;
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.13),rgba(4, 9, 30, 0.164)),url(images/contact_page.jpg);
+    background-position: center;
+    background-size: cover;
     text-align: center;
-    font-size: 30px;
+    color: #fff3f3;
 }
 
 .content{
@@ -70,4 +141,15 @@
     height: 100px;
     padding-bottom: 10px;
     padding-top: 20px;
+}
+
+.title{
+    font-size: 60px;
+    margin-top: 60px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0 0 1rem gainsboro;
 }
