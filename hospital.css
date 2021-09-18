@@ -1,0 +1,73 @@
+.volunteer{
+    background: #5b91b4b6;
+    font-family: sans-serif;
+}
+
+.volunt{
+    position: relative;
+    width: 450px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.1);
+    box-shadow: inset 0 0 15px rgba(0,0,0,.2);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.vol{
+    display: flex;
+    padding-top: 15px;
+    background: rgba(255, 255, 255, 0.274);
+    padding: 10px 20px;
+    color:rgb(209, 10, 10);
+    margin: 5px 0;
+    transition: .5s;
+
+}
+
+.vol:nth-child(1){
+    background: rgba(68, 108, 219, 0.9);
+}
+
+.vol:nth-child(2){
+    background: rgba(68, 108, 219, 0.6);
+}
+.vol:nth-child(3){
+    background: rgba(68, 108, 219, 0.4);
+}
+.vol span:nth-child(1){
+    width: 30px;
+}
+.vol span:nth-child(2){
+    width: 200px;
+}
+.vol span:nth-child(3){
+    width: 100px;
+    font-size: 15x;
+}
+.vol span:nth-child(4){
+    width: 70px;
+
+}
+
+.vol:hover{
+    transform: scale(1.06);
+    background: #FFB6C1;
+}
+
+.title-head{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background: url("https://media.discordapp.net/attachments/797151895038197781/888873885771108412/bill-oxford-8u_2imJaVQs-unsplash.jpg?width=375&height=563");
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content{
+    background: white;
+    height: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
